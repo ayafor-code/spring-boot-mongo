@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: javawebappcontainer
-        image: mylandmarktech/java-web-app
+        image: ayafortek/spring-boot-mongo:v1
         ports:
         - containerPort: 8080 
 ---
